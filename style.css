@@ -104,6 +104,9 @@ body {
     -3px -3px 8px #fff;
     transition: all 0.5s;
     font-family: peyda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .signin-button:hover {
     background-color: #50e5b9;
@@ -117,4 +120,7 @@ body {
     color: #00db49;
     font-weight: 700;
     transition: .2s linear;
+}
+.signin-status.error {
+    color: #db0000;
 }
